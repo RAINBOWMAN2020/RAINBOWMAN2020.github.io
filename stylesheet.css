@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
   margin: 0;
   height:100%;
@@ -27,13 +31,17 @@ ul{
 }
 .menus{
     text-align:center;
-
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 .menus a{
     font-size: 30px;
     padding-left:30px;
-    float:center;
+    text-align: center;
     font-weight: bold;
+    margin:0 10px;
 }
 .menus a:hover{
     
@@ -49,7 +57,6 @@ ul{
 .skills{
     width:100%;
     display:flex;
-    
 }
 .skill-level{
     margin-left:10px;
